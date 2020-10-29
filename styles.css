@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(#8EE4AF 40%, navy);
+    background-size: cover;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background-position: center bottom;
+    background-origin: padding-box;
+} 
+
+header {
+    text-align: left;
+    background: linear-gradient(#05386B, navy);
+    height: 120px;
+    padding-top: 10px;
+  
+}
+
+#weather-detail {
+    display: none;
+    margin-top: 20px;
+}
+
+
+h1 {
+    color: #7FFFD4;
+    font-size: 60px;
+    margin: 50px 20px 0px 20px;
+    display: inline; 
+    padding: 20px 0px 0px 0px;
+
+}
+
+label {
+    font-size: 32px;
+}
+
+#zip {
+    display: inline-block;
+    font-size: 28px;
+    margin: auto 5px;
+    border-radius: 5%;
+    padding: 15px;
+    width: 40%;
+    background: url('magnifying-glass.svg') 1px 1px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-color: lightgray;
+    background-position: 10px;
+    text-align: right;
+    align-content: right;
+}
+
+#submit {
+    background-color: navy;
+    color: white;
+    padding: 5px 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+ul {
+    margin: 0px 20px;
+    padding-inline-start: 0px;
+}
+
+button {
+    font-size: 32px;
+}
+
+li {
+    margin: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    list-style-type: none;
+
+}
+
+p {
+    display: inline;
+    margin: 30px 20px;
+    color: navy;
+    font-size: 22px;
+}
+
+.tabs {
+    width: 30%;
+    border: 1px solid black;
+}
+
+
+.city-name {
+    font-size: 48px;
+    font-weight: bold;
+    display: block;
+}
+
+.city-temp {
+    font-size: 38px;
+}
+
+.default-box {
+    border: 1px solid black;
+    width: 350px;
+    display: inline-block;
+    margin: 40px 20px 10px 20px;
+    padding: 10px;
+    color: #7FFFD4;
+    background: linear-gradient(#05386B, navy);
+    border-radius: 10px;
+}
