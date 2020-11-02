@@ -1,9 +1,10 @@
 body {
-    background: linear-gradient(#8EE4AF 40%, navy);
+    background: linear-gradient(#8EE4AF 20%, #6666FF);
     background-size: cover;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+    width: 100vw;
     background-position: center bottom;
     background-origin: padding-box;
 } 
@@ -13,6 +14,7 @@ header {
     background: linear-gradient(#05386B, navy);
     height: 120px;
     padding-top: 10px;
+    width: 100%;
   
 }
 
@@ -29,6 +31,10 @@ h1 {
     display: inline; 
     padding: 20px 0px 0px 0px;
 
+}
+
+h2 {
+    margin: 20px 0;
 }
 
 label {
@@ -71,10 +77,14 @@ button {
 
 li {
     margin: 20px;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
     list-style-type: none;
 
+}
+
+#current li {
+    font-size: 64px;
 }
 
 p {
@@ -85,8 +95,13 @@ p {
 }
 
 .tabs {
-    width: 30%;
+    width: 40%;
     border: 1px solid black;
+    color: #7FFFD4;
+    background: linear-gradient(#05386B, navy);
+    font-size: 48px;
+    margin-top: 40px;
+    margin-right: 1px;
 }
 
 
@@ -109,4 +124,52 @@ p {
     color: #7FFFD4;
     background: linear-gradient(#05386B, navy);
     border-radius: 10px;
+}
+
+#weather {
+    color: #7FFFD4;
+    background: linear-gradient(#05386B, navy);
+    max-width: 80%;
+    margin: auto;
+    background-color:white;
+    border: 2px black solid;
+}
+
+#forecast-tab {
+    border-bottom: 5px solid #7FFFD4;
+    margin-left: 2px;
+    background-color: navy;
+}
+
+#current-tab {
+    border-bottom: 5px solid navy;
+}
+
+#forecast {
+    display: none;
+    color: #7FFFD4;
+    background: linear-gradient(#05386B, navy);
+    max-width: 80%;
+    text-align: left;
+    margin: auto;
+}
+
+.fas {
+    font-size: 64px;
+    width: 100%;
+}
+
+.hi-lo {
+    font-size: 32px;
+    text-align: center;
+}
+
+.day {
+    text-align: center;    
+}
+
+.day-forecast {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
 }
